@@ -17,3 +17,16 @@ body {
 .wallet-adapter-button {
     font-family: inherit !important;
 }
+
+.hero-gradient {
+  background: linear-gradient(135deg, #0047ab 0%, #001f3f 100%);
+}
+
+.btn-primary {
+  background: #0047ab !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background: #003d91 !important;
+}
