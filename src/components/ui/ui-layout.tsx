@@ -23,9 +23,20 @@ export function UiLayout({ children, links }: { children: ReactNode; links: { la
           <ul className="menu menu-horizontal px-1 space-x-2">
             {links.map(({ label, path }) => (
               <li key={path}>
-                <Link className={pathname.startsWith(path) ? 'active' : ''} href={path}>
-                  {label}
-                </Link>
+                {path.startsWith('http') ? (
+                  <a 
+                    href={path}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary"
+                  >
+                    {label}
+                  </a>
+                ) : (
+                  <Link className={pathname.startsWith(path) ? 'active' : ''} href={path}>
+                    {label}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>

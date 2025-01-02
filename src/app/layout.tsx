@@ -13,6 +13,9 @@ const links: { label: string; path: string }[] = [
   { label: 'Centres', path: '/centres' },
   { label: 'Meetings', path: '/meetings' },
   { label: 'Stakeholders', path: '/stakeholders' },
+  { label: 'Chart', path: 'https://www.defined.fi/embed/sol/CEqfTHUBLdf4rPABDoMdTupRZYLsgQSvrf4vKicX5YVE?quoteToken=token0' },
+  { label: 'KlAIus', path: 'https://x.com/klaiusschwaib' },
+  { label: 'WAIF', path: 'https://x.com/waiforum' },
 ]
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
