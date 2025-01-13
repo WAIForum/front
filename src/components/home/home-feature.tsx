@@ -60,7 +60,7 @@ export default function HomeFeature() {
           <div className="flex flex-col space-y-4">
             <div className="space-x-2 md:space-x-4">
               <a 
-                href="https://www.defined.fi/embed/sol/CEqfTHUBLdf4rPABDoMdTupRZYLsgQSvrf4vKicX5YVE?quoteToken=token0"
+                href="https://www.defined.fi/embed/sol/7QKxpMSvcHGvfqzYYzXpU8mVMoUzP6dyaW1nEeSSpump?quoteToken=token0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-sm md:btn-md btn-primary"
@@ -74,6 +74,14 @@ export default function HomeFeature() {
                 className="btn btn-sm md:btn-md btn-outline"
               >
                 KlAIus
+              </a>
+              <a 
+                href="https://t.me/waiforum"
+                target="_blank"
+                rel="noopener noreferrer" 
+                className="btn btn-sm md:btn-md btn-outline"
+              >
+                Telegram
               </a>
             </div>
             <div 
