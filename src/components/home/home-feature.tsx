@@ -60,7 +60,7 @@ export default function HomeFeature() {
           <div className="flex flex-col space-y-4">
             <div className="space-x-2 md:space-x-4">
               <a 
-                href="https://www.defined.fi/embed/sol/7QKxpMSvcHGvfqzYYzXpU8mVMoUzP6dyaW1nEeSSpump?quoteToken=token0"
+                href="https://www.defined.fi/sol/Ei6g3qY6QAYjf1L5dwUhTJgKSYVkFRmQhRfguagBtPgE?quoteToken=token1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-sm md:btn-md btn-primary"
